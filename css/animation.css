@@ -6,13 +6,12 @@
   50%  {background-color: #FFB6C1;
   border-radius: 50%;}
   100% {background-color: #DB7093;
-  transform: rotate(90deg);}
 }
 
 /* The element to apply the animation to */
 div {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background-color: red;
   animation-name: animatedSquare;
   animation-duration: 2s;
@@ -22,6 +21,4 @@ div {
   animation-direction: alternate;
   border-color: black;
   align-content: center;
-
-
 } 
